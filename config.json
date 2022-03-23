@@ -1,0 +1,5 @@
+{
+    "auth_token": "",
+    "interval_ms": "15000",
+    "pair": "https://api.dexscreener.io/latest/dex/pairs/avalanche/0x4cf9dc05c715812fead782dc98de0168029e05c8"
+}
