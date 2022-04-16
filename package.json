@@ -1,12 +1,12 @@
 {
-  "name": "elasticswap",
+  "name": "DexScreener bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Mexzter#0001",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.26.1",

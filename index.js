@@ -23,7 +23,7 @@ client.on("ready", async () => {
 });
 
 var call = async () => {
-    axios.get(config.pair)
+    axios.get("https://api.dexscreener.io/latest/dex/pairs/" + config.pair)
     .then(function (response) {
         console.log(response.data.pair.priceUsd)
         client.user.setActivity("$" + response.data.pair.priceUsd, {type: "PLAYING"});
